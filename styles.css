@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Maximum width */
+}
+
+.box {
+    border: 1px solid #000; /* Black border for visibility */
+    margin-bottom: 10px; /* Space between rows */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* White text color */
+    font-weight: bold;
+    text-align: center;
+    min-height: 50px; /* Minimum height for boxes */
+}
+
+.top {
+    background-color: purple;
+    height: 150px; /* Adjust top box height */
+}
+
+.middle-row {
+    display: flex;
+    gap: 10px; /* Space between middle boxes */
+}
+
+.middle-left {
+    background-color: pink;
+    flex: 1; /* Equal width for middle boxes */
+    height: 100px; /* Adjust middle boxes height */
+}
+
+.middle-right {
+    background-color: yellow;
+    flex: 1; /* Equal width for middle boxes */
+    height: 100px; /* Adjust middle boxes height */
+}
+
+.bottom {
+    background-color: black;
+    height: 200px; /* Adjust bottom box height */
+}
